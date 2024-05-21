@@ -1,19 +1,21 @@
 #include <iostream>
 using namespace std;
 
-int main(){
-    int i = 1,j=1;
-    while (i<=5)
+int main()
+{
+    int n;
+    cout << "Enter a number: " << endl;
+    cin >> n;
+    int i = 1, j;
+    while (i <= n)
     {
-        j=1;
-        while (j<=5)
+        j = 1;
+        while (j <= n)
         {
-            cout<<"* ";
+            cout << "* ";
             j++;
         }
-        cout<<endl;
+        cout << endl;
         i++;
-        
     }
-    
 }
