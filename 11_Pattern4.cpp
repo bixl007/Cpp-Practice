@@ -7,15 +7,16 @@ int main()
     cout << "Enter a number" << endl;
     cin >> n;
 
-    int i = 1;
+    int i = 1, k = 1;
 
     while (i <= n)
     {
         int j = 1;
         while (j <= n)
         {
-            cout << j << " ";
+            cout << k << " ";
             j++;
+            k++;
         }
         cout << endl;
         i++;
