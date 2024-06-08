@@ -45,7 +45,7 @@ Contributions are welcome! If you have a project, code snippet, or resource you'
     git checkout -b your-branch-name
     ```
 
-3. Make your changes.
+3. Make your changes. 
 4. Commit your changes:
 
     ```bash
